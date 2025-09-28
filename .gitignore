@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+
+# IDE configs
+.vscode/
+.idea/
+
+# Data and outputs
+DATA/
+runs/
+logs/
+checkpoints/
+
+# Model weights and big binaries
+*.pt
+*.pth
+*.ckpt
+*.npz
+
+
