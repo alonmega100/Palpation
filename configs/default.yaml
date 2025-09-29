@@ -1,0 +1,16 @@
+data_root: ./DATA/grid_capture_20250925_172501   # has train/ and test/
+out_dir: ./runs/exp1
+
+img_size: 256
+batch_size: 32
+epochs: 40
+lr: 0.001
+workers: 4
+amp: true
+grad_clip: 1.0
+seed: 42
+
+# how to read your JSON label
+out_dim: 6
+freeze_backbone: false
+dropout: 0.2

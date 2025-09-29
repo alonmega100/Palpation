@@ -25,8 +25,8 @@ def main():
     #     print("############")
     #
     #     time.sleep(1)
-    img = cv2.imread("../../DATA/grid_capture_20250925_172501/train/grid_0000_dx-0.200_dy-0.200_dz+0.150_yaw-8.0_pit+0.3_rol+3.7_masked.png")
-    print((img.shape))
+    img = cv2.imread("../../DATA/grid_capture_20250925_172501/grid_0000_dx-0.200_dy-0.200_dz+0.150_yaw-8.0_pit+0.3_rol+3.7_crop.png")
+    print(img.shape)
 
 if __name__ == '__main__':
     main()

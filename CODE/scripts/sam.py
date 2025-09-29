@@ -5,7 +5,7 @@ from pupil_apriltags import Detector
 from segment_anything import sam_model_registry, SamPredictor
 
 # --- Load SAM once globally (faster if you call function multiple times) ---
-SAM_CKPT = "../DATA/sam_vit_h_4b8939.pth"
+SAM_CKPT = "../../DATA/sam_vit_h_4b8939.pth"
 SAM_TYPE = "vit_h"   # vit_b / vit_l / vit_h
 device = "cuda" if torch.cuda.is_available() else "cpu"
 sam = sam_model_registry[SAM_TYPE](checkpoint=SAM_CKPT).to(device)

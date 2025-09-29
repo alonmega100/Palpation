@@ -1,0 +1,17 @@
+# math/symbolic tools
+sympy==1.14.0
+networkx==3.5
+
+# plotting & reports
+seaborn==0.13.2   # nicer plots
+jupyter==1.0.0    # notebooks
+notebook==7.2.2   # modern notebook UI
+
+# linting/formatting
+black==24.8.0
+flake8==7.1.1
+isort==5.13.2
+
+# reproducibility helpers
+ipython==8.26.0
+pytest==8.3.2     # for unit testing
